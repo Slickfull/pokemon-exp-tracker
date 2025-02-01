@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#playersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.player {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #f8f8f8;
+}
+
+.pokemon {
+    margin-top: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    z-index: 1000;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.close {
+    cursor: pointer;
+    float: right;
+}
